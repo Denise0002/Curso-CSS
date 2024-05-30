@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.caja{
+    background: blueviolet;
+    width: 100%;
+    height: 500px;
+    padding-left: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+p{
+    background: aquamarine;
+    width: 15%;
+    height: 280px;
+    text-align: center;
+    font-size: 28px;
+    margin: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-out; <---
+
+}
+s{
+    background: white;
+    width: 28%;
+    height: 200px;
+    text-align: column;
+    font-size: 28px;
+    margin: 5px;
+    border-radius: 15px;
+}
+b{
+    background: white;
+    width: 65%;
+    height: 200px;
+    text-align: row;
+    font-size: 28px;
+    margin: 5px;
+    border-radius: 15px;
+}
+p:hover{
+    background: aqua;
+    width: 16%;
+    box-shadow: 5px 5px 5px white;  
+
+}
